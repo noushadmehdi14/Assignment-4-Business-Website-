@@ -1,0 +1,71 @@
+.nav-link {border-radius: 40px; text-align: center;font-family: Arial, Helvetica, sans-serif; font-size: large;}
+.nav-link:hover {background-color: rgb(252, 121, 121); color: white; cursor: pointer;}
+#nav1:hover {color: white;}
+.bgcolor {background-color: white;}
+.slider {background-color: rgb(161, 4, 4); color: yellow;}
+.main {color: white; background-color: rgba(211, 211, 211, 0.26);}
+#miss {text-shadow: 10px 10px 10px grey; font-size: 50px;text-align: center; color: red; font-family: Arial, Helvetica, sans-serif; padding-top: 40px;}
+#misspara {font-size: larger; text-align: left; font-family: Arial, Helvetica, sans-serif; padding-left: 50px; color: rgba(128, 128, 128, 0.747); padding-top: 20px;}
+.video {padding-top: 80px; text-align: center;}
+.courses {margin-top: 120px; text-align: center; background-color: rgba(0, 0, 0, 0.815);}
+.board {padding-top: 50px; color: rgb(8, 226, 255); padding-bottom: 50px;}
+#exp {color: whitesmoke; padding-top: 30px; text-align: justify; padding-left: 30px;}
+#inst {margin-left: 15px; text-align: left; font-weight: bold; color: mintcream; margin-top: 10px;}
+#line {color: lightslategray; padding-left: 80px;}
+.facebook {width: 25px; height: 25px; margin-right: 100px; float: right; margin-top: -40px; }
+.whatsapp {width: 25px; height: 25px;margin-right: 60px; float: right;margin-top: -40px;}
+.youtube {width: 25px; height: 25px; margin-right: 20px;float: right;margin-top: -40px;}
+.youtube:hover {cursor: pointer;}
+.whatsapp:hover {cursor: pointer;}
+.facebook:hover {cursor: pointer;}
+.team {background-color: rgb(255, 68, 68); text-align: left; font-family: Arial, Helvetica, sans-serif; padding-top: 20px; color: whitesmoke; margin-top: 30px; padding-bottom: 10px; height: 90px;}
+#interested {float: left;}
+#form {float: right; margin-top: 5px; color: rgb(72, 105, 6); border: yellowgreen; background-color: whitesmoke; font-size: larger; border-radius: 8px;}
+#form:hover {cursor: pointer;}
+.foot {background-color: rgb(4, 4, 104); height: 350px; margin-top: 60px;}
+#fh {color: yellow;}
+#fd {float: left; padding-left: 0px; padding-top: 30px; width: 300px;}
+#line {color: white; padding-left: 0px; margin-top: -20px; font-weight: bold;}
+#list {color: white;}
+.cr {height: 30px; background-color: rgb(0, 0, 187); color: white; text-align: center;}
+.contact {height: 75px; color: white; background-color: crimson; text-align: center; padding-top: 10px;}
+.add {padding-left: 70px; padding-top: 40px; color: rgb(99, 96, 96);float: left;}
+.form {width: 600px; padding-top: 40px; color: rgb(40, 1, 150);}
+.chairman {color: rgb(114, 114, 114); font-family: Arial, Helvetica, sans-serif; padding-top: 20px; background-color: rgb(241, 233, 233);}
+#abt {padding-top: 20px;}
+.abtus {margin-top: 10px;}
+.footabout {clear: both; margin-top: 500px;}
+
+@media only screen and (max-width: 910px)
+{
+    .top{width: auto;}
+    .video { display: none;}
+    #inst {font-size: small; text-align: center; margin: 0 auto;}
+    .p-1 {height: 60px; width: auto;}
+    #topicons {display: inline-block; justify-content: center ; text-align: center; margin: -25px auto}
+    .facebook {width: 25px; height: 25px;}
+    .whatsapp {width: 25px; height: 25px;}
+    .youtube {width: 25px; height: 25px;}
+    #miss {font-size: 35px;}
+    #misspara {padding-left: 0px; text-align: justify;}
+    #afg {font-size: 25px;}
+    #interested {font-size: 20px;}
+    .team {height: 150px;}
+    .foot {height: 800px; width: auto;}
+    .cr {text-align: left;}
+    .logo {margin-left: auto;}
+    #misspara {font-size: small;}
+    #exp {font-size: small;}
+    #fd {width: auto; clear: both;}
+    .logo {width: 110px; height: 50px;}
+    .container-fluid {margin: auto;}
+    .board {padding-top: 20px;}
+    .cr {width: 100%; float: left;}
+    .main{width: auto;}
+    .courses {width: auto;}
+    .team {width: auto; margin: 0 auto; justify-content: center;}
+    #noushad {width: 300px; height: 290px;}
+    #map {width: 300px;}
+    #fre {font-size: x-large;}
+    .footabout {margin-top: 0px;}
+}
